@@ -16,14 +16,14 @@ const Stake= () => {
           Les instruments juridiques au Cameroun représentent un pilier fondamental pour le
           développement durable et la gouvernance efficace du continent. Ils englobent un éventail
           de traités, conventions et accords qui façonnent le paysage légal et réglementaire,
-          favorisant ainsi la stabilité, l'intégration régionale et la protection des droits
+          favorisant ainsi la stabilité, intégration régionale et la protection des droits
           humains.
         </p>
         <ul className="list-disc list-inside text-base-content">
           <li>Stabilité et intégration régionale.</li>
           <li>Protection des droits humains.</li>
           <li>Sécurité des investissements.</li>
-          <li>Promotion de l'équité et de la justice sociale.</li>
+          <li>Promotion de équité et de la justice sociale.</li>
         </ul>
       </div>
     </div>

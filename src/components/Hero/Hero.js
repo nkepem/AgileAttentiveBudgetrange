@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="hero-content text-center text-secondary-content">
           <div className="max-w-lg">
             <h1 className="mb-5 text-4xl font-bold sm:mb-7 sm:text-5xl">
-              Let's make your product a success
+              Lets make your product a success
             </h1>
             <p className="mb-5 sm:mb-7 sm:text-lg">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui

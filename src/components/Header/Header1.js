@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FaSearch } from 'react-icons/fa';
 import { IoIosArrowDown } from 'react-icons/io';
-import Image from 'next/image'
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
