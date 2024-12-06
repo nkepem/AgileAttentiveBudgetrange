@@ -1,10 +1,10 @@
-
+import Image from 'next/image'
 
 const Stake= () => {
     return (
       <div className="flex flex-col lg:flex-row bg-base-200 p-6 rounded-lg shadow-md">
       <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
-        <img
+        <Image
           src="https://www.actualitix.com/wp-content/uploads/2017/08/cameroun-carte.jpg"
           alt="Carte du Cameroun"
           className="rounded-lg shadow-lg w-full object-cover"

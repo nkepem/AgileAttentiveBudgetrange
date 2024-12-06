@@ -1,5 +1,5 @@
 import Container from '@components/Container';
-
+import Image from 'next/image'
 import styles from './Footer.module.scss';
 
 const Footer = ({ ...rest }) => {
@@ -15,7 +15,7 @@ const Footer = ({ ...rest }) => {
   <div className="hero-overlay bg-opacity-60 absolute inset-0"></div> {/* Optional overlay for better text visibility */}
   
   <div className="flex items-center z-10">
-    <img src="/minfi.svg" alt="Logo" className="w-12 mr-4" />
+    <Image src="/minfi.svg" alt="Logo" className="w-12 mr-4" />
     <p className="text-secondary">MINFI</p> {/* Changed text color to white for better contrast */}
   </div>
 

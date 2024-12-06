@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FaSearch } from 'react-icons/fa';
 import { IoIosArrowDown } from 'react-icons/io';
+import Image from 'next/image'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,7 @@ const Header = () => {
       {/* Left Section: Logo */}
       <div className="flex-1">
         <Link href="/" className="btn btn-ghost text-xl flex items-center">
-          <img src="/minfi.svg" alt="Logo" className="h-8 w-8 mr-2" />
+          <Image src="/minfi.svg" alt="Logo" className="h-8 w-8 mr-2" />
           <span>MINFI</span>
         </Link>
       </div>

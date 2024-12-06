@@ -1,6 +1,7 @@
 // components/Navbar.tsx
 'use client';
 import Link from 'next/link';
+import Image from 'next/image'
 
 const NavBar = () => {
   return (
@@ -9,7 +10,7 @@ const NavBar = () => {
       <div className="flex-1">
         {/* Logo */}
         <Link href="/" className="btn btn-ghost text-xl flex items-center">
-          <img src="/minfi.svg" alt="Logo" className="h-8 w-8 mr-2" />
+          <Image src="/minfi.svg" alt="Logo" className="h-8 w-8 mr-2" />
           <span>MINFI</span>
         </Link>
       </div>
