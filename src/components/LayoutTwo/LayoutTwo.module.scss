@@ -1,0 +1,30 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  gap: 1rem; /* Space between columns */
+  padding: 1rem;
+}
+
+.sidebar {
+  flex: 1; /* Left column */
+  max-width: 30%; /* Restrict max width */
+  background-color: #2d3748; /* Tailwind bg-gray-800 */
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.main {
+  flex: 1.618; /* Right column follows the golden ratio */
+  background-color: #f9fafb; /* Tailwind bg-gray-100 */
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-y: auto;
+}

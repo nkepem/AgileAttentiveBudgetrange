@@ -1,0 +1,10 @@
+.collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .collapse input[type="radio"]:checked ~ .collapse-content {
+    max-height: 500px; /* Adjust based on your content */
+  }
+  

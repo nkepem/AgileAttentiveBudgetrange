@@ -1,0 +1,76 @@
+/* Sidebar container must stretch between header and footer */
+.sidebar {
+  position: fixed;
+  top: 4rem; /* Adjust to match the height of your header */
+  bottom: 4rem; /* Adjust to match the height of your footer */
+  left: 0;
+  width: 16rem;
+  background-color: #2d3748; /* Tailwind bg-gray-800 */
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  overflow-y: auto;
+}
+
+/* Sidebar open and closed transitions */
+.sidebarOpen {
+  transform: translateX(0);
+}
+
+.sidebarClosed {
+  transform: translateX(-100%);
+}
+
+/* Sidebar header styling */
+.sidebarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Sidebar title */
+.sidebarTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Close button styles */
+.closeButton {
+  background-color: #e53e3e; /* Tailwind bg-red-500 */
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.closeButton:hover {
+  background-color: #c53030; /* Tailwind bg-red-600 */
+}
+
+/* Navigation styles inside the sidebar */
+.sidebarNav {
+  padding: 1rem;
+}
+
+/* Navigation links */
+.sidebarLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebarLink {
+  display: block;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.sidebarLink:hover {
+  background-color: #4a5568; /* Tailwind bg-gray-700 */
+}
